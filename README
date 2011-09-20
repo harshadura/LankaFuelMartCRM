@@ -1,0 +1,47 @@
+############################################
+		Lanka Fuel Mart CRM System
+############################################
+
+@author      : Harsha Siriwardena     <harshadura@gmail.com>
+@copyrights  : UniverSL Software Ltd  <http://www.universlsoftware.com>
+@license     : GNU GPL v3             <http://www.gnu.org/licenses/>
+ 
+---------------------------
+Required Software
+---------------------------
+
+(01)    Java 1.6
+(02)    Mysql Server 5.1
+
+---------------------------
+Deploying the System
+---------------------------
+
+>   start mysql server
+
+>   source the database schema. (db_dump.sql)
+        mysql> source <path>/db_dump.sql
+
+>   Using command line, go Inside of System project folder.
+
+>   Run the Main System Jar found in <project>/dist/LankaFuelMart.jar
+
+
+-------------------------------------------
+3rd Party Tools Used
+-------------------------------------------
+(01)    Jasper Reporting
+(02)    Synthetica LAF (removed and inserted the System look and feel instead)
+
+-------------------------------------------
+Troubleshoot
+-------------------------------------------
+If an error occured like this "Java.lang.ClassNotFoundException:"
+Copy the Nessasary JARs into below folders and Restart the Application.
+
+Linux
+----- 
+\jre\lib
+\jre\lib\ext
+
+
